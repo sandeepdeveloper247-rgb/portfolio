@@ -120,7 +120,6 @@ const Hero = () => {
 
       {/* Main Container */}
       <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-8 sm:gap-12 md:grid-cols-2 md:gap-16">
-
         {/* Left Side */}
         <motion.div
           initial={{ opacity: 0, x: -80 }}
@@ -144,9 +143,8 @@ const Hero = () => {
           </h2>
 
           <p className="w-full max-w-2xl text-sm leading-6 text-gray-400 sm:text-lg sm:leading-8">
-            I build scalable web applications with modern technologies,
-            focusing on creating clean user experiences and solving real-world
-            problems.
+            I build scalable web applications with modern technologies, focusing
+            on creating clean user experiences and solving real-world problems.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3 sm:mt-10 sm:gap-4">
@@ -187,7 +185,6 @@ const Hero = () => {
           */}
           <div className="flex h-[300px] w-[300px] items-center justify-center sm:h-[380px] sm:w-[380px] md:h-[500px] md:w-[500px]">
             <div className="relative flex h-[500px] w-[500px] shrink-0 scale-[0.58] items-center justify-center sm:scale-[0.74] md:scale-100">
-
               <motion.div
                 animate={{
                   scale: [1, 1.12, 1],
@@ -210,7 +207,11 @@ const Hero = () => {
               <TechOrbit />
 
               <div className="absolute flex h-36 w-36 items-center justify-center rounded-full bg-slate-900 text-5xl shadow-[0_0_60px_rgba(34,211,238,0.35)]">
-                {"</>"}
+                <img
+                  src="/profile.png"
+                  alt="Sandeep Pradhan"
+                  className="h-full w-full object-cover object-[50%_30%]"
+                />
               </div>
             </div>
           </div>
