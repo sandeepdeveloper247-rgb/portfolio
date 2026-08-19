@@ -1,6 +1,6 @@
 import urlShortenerImage from "../assets/projects/url-shortener.png";
 import collegeManagementImage from "../assets/projects/college-management.png";
-
+import attendanceTrackerImage from "../assets/projects/dashboard.png";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
@@ -11,6 +11,7 @@ import {
   SiMongodb,
   SiEjs,
   SiTailwindcss,
+  SiFramer,
 } from "react-icons/si";
 
 const projects = [
@@ -30,7 +31,31 @@ const projects = [
       { name: "EJS", icon: SiEjs },
     ],
   },
+  {
+    title: "Attendance Tracker",
 
+    category: "Full Stack Web Application",
+
+    description:
+      "A full-stack attendance management application that helps students track subject-wise attendance, monitor attendance percentages, and calculate the classes required to reach their target.",
+
+    github: "https://github.com/sandeepdeveloper247-rgb/attendance-tracker",
+
+    live: "https://attendance-tracker-theta-eight.vercel.app/",
+
+    image: attendanceTrackerImage,
+
+    featured: false,
+
+    tech: [
+      { name: "React", icon: SiReact },
+      { name: "Node.js", icon: SiNodedotjs },
+      { name: "Express", icon: SiExpress },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
+      { name: "Framer Motion", icon: SiFramer },
+    ],
+  },
   {
     title: "College Management System",
     category: "Full Stack Web Application",
