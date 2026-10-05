@@ -9,7 +9,7 @@ import {
 const achievements = [
   {
     icon: FaCode,
-    number: "300+",
+    number: "400+",
     title: "LeetCode Problems",
     description:
       "Consistent problem solving across data structures and algorithms.",
@@ -30,7 +30,7 @@ const achievements = [
   },
   {
     icon: FaGraduationCap,
-    number: "8.71",
+    number: "8.78",
     title: "CGPA",
     description:
       "Maintaining a strong academic record in B.Tech Computer Science.",

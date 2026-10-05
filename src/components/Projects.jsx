@@ -1,6 +1,7 @@
 import urlShortenerImage from "../assets/projects/url-shortener.png";
 import collegeManagementImage from "../assets/projects/college-management.png";
 import attendanceTrackerImage from "../assets/projects/dashboard.png";
+import receiptTracker from "../assets/projects/Recieptly-AI.png";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
@@ -74,6 +75,23 @@ const projects = [
       { name: "Tailwind CSS", icon: SiTailwindcss },
     ],
   },
+  {
+  title: "Receiptly AI",
+  category: "AI-Powered Full Stack Web Application",
+  description:
+    "An AI-powered receipt tracking application that extracts transaction details from receipt images, organizes expenses, and provides spending insights through an interactive dashboard.",
+  github: "https://github.com/sandeepdeveloper247-rgb/Receiptly-AI",
+  live: null,
+  image: receiptTracker,
+  featured: false,
+  tech: [
+    { name: "React", icon: SiReact },
+    { name: "Node.js", icon: SiNodedotjs },
+    { name: "Express", icon: SiExpress },
+    { name: "MongoDB", icon: SiMongodb },
+    { name: "Tailwind CSS", icon: SiTailwindcss },
+  ],
+},
 ];
 
 const Projects = () => {
