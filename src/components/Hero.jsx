@@ -107,7 +107,7 @@
 import Button from "./Button";
 import { motion } from "framer-motion";
 import TechOrbit from "./TechOrbit";
-
+import resume from "../assets/resume/Resume_Sandeep_Offcampus.pdf";
 const Hero = () => {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden px-4 pb-10 pt-24 sm:px-6 sm:pt-28 md:pb-20">
@@ -161,11 +161,7 @@ const Hero = () => {
               </Button>
             </a>
 
-            <a
-              href="/Resume_Sandeep_Offcampus.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={resume} target="_blank" rel="noopener noreferrer">
               <Button variant="secondary">View Resume</Button>
             </a>
           </div>
