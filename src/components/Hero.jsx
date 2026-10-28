@@ -162,7 +162,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Sandeep_Pradhan_Resume.pdf"
+              href="/Resume_Sandeep_Offcampus.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
